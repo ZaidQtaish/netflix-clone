@@ -3,7 +3,7 @@ export default function Header() {
     <header>
       <img
         className="netflix-logo"
-        src="/Netflix_logo.png"
+        src="./Netflix_logo.png"
         alt="Netflix Logo"
       />
       <div className="login-container">
