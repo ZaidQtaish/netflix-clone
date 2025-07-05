@@ -1,6 +1,7 @@
-import ShowCard from "./ShowCard";
-import FeatureCard from "./FeatureCard";
-import FaqBox from "./FaqBox";
+import ShowCard from "./InfoComponents/ShowCard";
+import FeatureCard from "./InfoComponents/FeatureCard";
+import FaqBox from "./InfoComponents/FaqBox";
+import Footer from "./InfoComponents/Footer"
 
 export default function InfoSection() {
   return (
@@ -97,6 +98,7 @@ export default function InfoSection() {
         </form>
         </div>
       </div>
+      <Footer />
     </section>
   );
 }
